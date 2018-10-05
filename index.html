@@ -4,7 +4,7 @@
 <meta content="IE=11.0000" http-equiv="X-UA-Compatible">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="keywords" content="本表白网页在线生成来自 http://www.zaiyiqiba.com">
-<meta name="description" content="你的出现，占满了我的视线，我愿跟随你永远&nbsp;">
+<meta name="description" content="我这里还只是文字告白哦!做我女朋友好不好?(愿意的话,发消息给我:'我愿意' 如果...)不过也会有一天我会亲口告诉你我喜欢你的!&nbsp;">
 <title>我们的爱情树</title>	    
 </head>
 <body><div id="BAIDU_DUP_fp_wrapper" style="position: absolute; left: -1px; bottom: -1px; z-index: 0; width: 0px; height: 0px; overflow: hidden; visibility: hidden; display: none;"><iframe id="BAIDU_DUP_fp_iframe" src="https://pos.baidu.com/wh/o.htm?ltr=" style="width: 0px; height: 0px; visibility: hidden; display: none;"></iframe></div>
@@ -29,69 +29,7 @@
 
 <script src="http://www.zaiyiqiba.com/zxsc/shuju/jscex-async-powerpack.min.js" type="text/javascript"></script>
 
-<script = type="text/javascript" charset="utf-8">
-
-/*
- * http://love.hackerzhou.me
- */
-
-// variables
-var $win = $(window);
-var clientWidth = $win.width();
-var clientHeight = $win.height();
-
-$(window).resize(function() {
-    var newWidth = $win.width();
-    var newHeight = $win.height();
-    if (newWidth != clientWidth && newHeight != clientHeight) {
-        location.replace(location);
-    }
-});
-
-(function($) {
-	$.fn.typewriter = function() {
-		this.each(function() {
-			var $ele = $(this), str = $ele.html(), progress = 0;
-			$ele.html('');
-			var timer = setInterval(function() {
-				var current = str.substr(progress, 1);
-				if (current == '<') {
-					progress = str.indexOf('>', progress) + 1;
-				} else {
-					progress++;
-				}
-				$ele.html(str.substring(0, progress) + (progress & 1 ? '_' : ''));
-				if (progress >= str.length) {
-					clearInterval(timer);
-				}
-			}, 75);
-		});
-		return this;
-	};
-})(jQuery);
-
-function timeElapse(date){
-	var current = Date();
-	
-	var seconds = (Date.parse(current) - Date.parse(date)) / 1000;
-	var days = Math.floor(seconds / (3600 * 24));
-	seconds = seconds % (3600 * 24);
-	var hours = Math.floor(seconds / 3600);
-	if (hours < 10) {
-		hours = "0" + hours;
-	}
-	seconds = seconds % 3600;
-	var minutes = Math.floor(seconds / 60);
-	if (minutes < 10) {
-		minutes = "0" + minutes;
-	}
-	seconds = seconds % 60;
-	if (seconds < 10) {
-		seconds = "0" + seconds;
-	}
-	var result = "第<span class=\"digit\">" + days + "</span> 天 <span class=\"digit\">" + hours + "</span> 时 <span class=\"digit\">" + minutes + "</span> 分 <span class=\"digit\">" + seconds + "</span> 秒"; 
-	$("#clock").html(result);
-}</script>
+<script src="http://www.zaiyiqiba.com/zxsc/shuju/functions.js" type="text/javascript" charset="utf-8"></script>
 
 
 <script src="http://www.zaiyiqiba.com/zxsc/shuju/love.js" type="text/javascript" charset="utf-8"></script>
