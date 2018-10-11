@@ -145,7 +145,7 @@
    (function(){
        var canvas = $('#canvas');
 
-	       if (!canvas[0].getContext) {
+	       if (canvas[0].getContext) {
            $("#error").show();
            return false;
        }
